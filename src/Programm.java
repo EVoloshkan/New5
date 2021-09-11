@@ -24,6 +24,7 @@ public class Programm {
                 break;
             default:
                 System.out.println("Неизвестный оператор");
+                break;
         }
 
     }
