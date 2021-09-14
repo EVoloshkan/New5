@@ -4,9 +4,9 @@ public class MyClass {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите X");
-        int x = scanner.nextInt();
+        double x = scanner.nextDouble();
         System.out.println("Введите Y");
-        int y = scanner.nextInt();
+        double y = scanner.nextDouble();
         System.out.println("Введите оператор +, -, *, /");
         String operator = scanner.next();
         switch (operator){
